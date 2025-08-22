@@ -1,0 +1,23 @@
+{
+    "inputs": [
+        {
+            "id": "github_token",
+            "type": "promptString",
+            "description": "GitHub Personal Access Token",
+            "password": true
+        }
+    ],
+    "servers": {
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest",
+                "--browser=msedge"
+            ]
+        },
+        "github-remote": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/",
+        },
+    }
+}
