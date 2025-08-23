@@ -1,7 +1,7 @@
 ---
 mode: 'agent'
 description: 'Demo: Improve API Test Coverage - Add Unit Tests for Missing Routes.'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages', 'playwright', 'github', 'Azure MCP Server']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages', 'playwright', 'github']
 ---
 # 🧪 Demo: Add Unit Tests for Product and Supplier Routes
 
@@ -90,3 +90,5 @@ npm run test:api -- src/routes/product.test.ts
 - Existing test: `api/src/routes/branch.test.ts`
 - Test config: `api/vitest.config.ts`
 - Coverage report: `api/coverage/index.html`
+
+## Test Coverage
