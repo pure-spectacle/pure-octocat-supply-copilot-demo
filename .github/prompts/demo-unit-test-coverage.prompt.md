@@ -1,7 +1,7 @@
 ---
 mode: 'agent'
 description: 'Demo: Improve API Test Coverage - Add Unit Tests for Missing Routes.'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages', 'playwright', 'github']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages', 'playwright', 'github-remote']
 ---
 # 🧪 Demo: Add Unit Tests for Product and Supplier Routes
 

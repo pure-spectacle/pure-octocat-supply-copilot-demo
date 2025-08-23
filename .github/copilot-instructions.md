@@ -8,13 +8,13 @@ The complete architecture is described in the [Architecture Document](../docs/ar
 
 Refer to [build instructions](../docs/build.md) for detailed build instructions.
 
-Every time you change the code, make sure that the code compiles by running:
+Only if prompted to build the code after a change, use:
 
 ```bash
 npm run build
 ```
 
-To run the unit tests for the API, run:
+If prompted to run the unit tests for the API, run:
 
 ```bash
 npm run test:api
