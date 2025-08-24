@@ -49,7 +49,7 @@
 			}
 		}
 	},
-	"postCreateCommand": "npm install -g concurrently && npm run build",
+	"postCreateCommand": "npm install",
 	"hostRequirements": {
 		"cpus": 4,
 		"memory": "8gb"
