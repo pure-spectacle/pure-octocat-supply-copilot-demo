@@ -1,16 +1,21 @@
 # Docker Compose File for Application Container with Docker bindings
-version: '3.8'
 
 services:
   dev:
     image: mcr.microsoft.com/devcontainers/javascript-node:dev-20-bookworm
     command: sleep infinity
+    
+    working_dir: /workspaces/pure-octocat-supply-copilot-demo
 
     ports:
       - "3000:3000"
       - "5137:5137"
 
     volumes:
-      - type: bind
-        source: /var/run/docker.sock
-        target: /var/run/docker.sock
+      # Mount the entire workspace
+      - ..:/workspaces/pure-octocat-supply-copilot-demo:cached
+      # Mount Docker socket for Docker-in-Docker capabilities
+      - /var/run/docker.sock:/var/run/docker.sock
+      
+    # Keep container running
+    tty: true

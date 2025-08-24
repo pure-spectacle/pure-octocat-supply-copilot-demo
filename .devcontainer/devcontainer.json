@@ -3,6 +3,7 @@
 		"docker-compose.yml"
 	],
 	"service": "dev",
+	"workspaceFolder": "/workspaces/pure-octocat-supply-copilot-demo",
 	"forwardPorts": [
 		3000,
 		5137
